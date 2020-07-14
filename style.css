@@ -1,0 +1,51 @@
+body,
+html
+{
+font-family: 'Grenze Gotisch', cursive;
+font-family: 'Merriweather', serif;
+height:100%;
+width:100%;
+  background: url(sweety.jpg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size:cover;
+  background-size:1500px 950px;
+}
+h1{
+	font-style: 3rem;
+	color: #1078e0;
+}
+h1:hover{
+transform: scale(1.1);
+}
+
+hr
+{
+	border-color:#fd7e14;
+	border-width: 3px;
+	max-width: 65px;
+}
+
+.buffer{
+	height: 30rem;
+}
+.btn{
+	font-weight: 500;
+	border-radius:300px;
+	text-transform:uppercase;
+}
+.btn-primary
+{
+	background-color: #fd7e14;
+	border-color: #fd7e14;
+}
+.btn-primary:hover
+{
+	background-color: #fd7e14;
+	border-color: #fd7e14;
+	border-width: 4px;
+}
+.btn-xl
+{
+ padding: 1rem 2rem;
+}
